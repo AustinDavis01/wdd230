@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: "Open Sans", sans-serif;
+}
+
+header {
+    color: white;
+    background-color: rgb(50, 50, 50);
+    text-align: center;
+    padding: 1px;
+}
+
+main{
+    text-align: left;
+    display: grid;
+    grid-template-columns: 100vw 100vw 100vw 100vw;
+    grid-template-rows: 650px 650px 650px 150px;
+}
+
+section {
+    background-color: rgb(220, 220, 220);
+    margin: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 0px;
+}
+
+.grid1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.grid2 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.grid3{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.screenshot{
+    background-size: cover;
+    width: 85vw;
+    display: block;
+    margin: 25px auto;
+    border-radius: 10px;
+    
+}
+
+.header-colored {
+    background-color: rgb(30, 13, 92);
+    padding: 10px;
+    color: white;
+    margin: 0px;
+}
+
+section p, section a {
+    margin: 8px;
+}
+
+
+
+footer{
+    background-color: #333333;
+    padding: 20px 0px 5px 0px;
+    text-align: center;
+    color: white;
+}
+
+.last{
+    color: goldenrod;
+}
+
+.horizontal{
+    display: flex;
+    justify-content: center;
+}
+footer p {
+    margin-right: 10px;
+}
