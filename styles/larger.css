@@ -1,0 +1,39 @@
+
+@media (min-width: 550px) {
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 1.5em;
+    }
+
+    .large-section {
+        display: flex;
+        justify-content: center;
+    }
+
+    .section1{
+        width: 100vw;
+    }
+
+    .section2 {
+        width: 50vw;
+    }
+
+    footer div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+
+    footer div p {
+        margin-right: 10px;
+    }
+
+ 
+
+
+
+
+
+}
