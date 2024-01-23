@@ -24,20 +24,16 @@ html, body{
     border-radius: 10px;
 }
 
-.none {
-    display: none;
+#menu::before{
+    content: url(/images/hamburgermenu.png);
 }
 
 .show {
     display: block;
 }
 
-.exiting {
-    display: none;
-    position: absolute;
-    font-size: xx-large;
-    left: 10px;
-    color: white;
+#menu.show::before{
+    content: url(/images/exit.png);
 }
 
 nav{
@@ -46,6 +42,7 @@ nav{
     background-color: #bc6c25;
     text-align: center;
     color: white;
+    display: none;
 
 }
 
