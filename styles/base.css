@@ -24,6 +24,22 @@ html, body{
     border-radius: 10px;
 }
 
+.none {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.exiting {
+    display: none;
+    position: absolute;
+    font-size: xx-large;
+    left: 10px;
+    color: white;
+}
+
 nav{
     margin: 0px;
     padding: 10px 5px;
@@ -33,9 +49,14 @@ nav{
 
 }
 
+nav ul li:hover{
+    color: black;
+
+}
+
  nav ul li {
     list-style-type: none;
-    margin: 20px 0px;
+    margin: 20px 70px;
     cursor: pointer;
 
  }
@@ -67,6 +88,10 @@ nav{
     margin: 0px;
     border-radius: 2px;
     padding: 1.8em 1.5em;
+}
+
+#menu::before {
+    content: url(/images/hamburgermenu.png);
 }
 
 footer{
