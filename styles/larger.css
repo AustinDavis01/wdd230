@@ -10,6 +10,10 @@
     #menu {
         display: none;
     }
+
+    #nav {
+        display: block;
+    }
     
     .large-section {
         display: flex;
