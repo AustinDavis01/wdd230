@@ -29,7 +29,7 @@ html, body{
     content: url(images/hamburgermenu.png);
     position: absolute;
     right: 10px;
-    top: 10px
+    top: 10px;
 }
 
 /* #menu.show::before{
