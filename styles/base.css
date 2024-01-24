@@ -25,16 +25,16 @@ html, body{
     border-radius: 10px;
 }
 
-#menu{
-    background-image: url("../images/hamburgermenu.jpg");
+#menu::before{
+    content: url("../images/hamburgermenu.jpg");
     position: absolute;
     right: 10px;
     top: 10px;
 }
 
-/* #menu.show::before{
-    content: url(images/exit.png);
-} */
+#menu.show::before{
+    content: url("../images/exit.png");
+}
 
 .show {
     display: block;
