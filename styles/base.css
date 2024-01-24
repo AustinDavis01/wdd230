@@ -26,7 +26,7 @@ html, body{
 }
 
 #menu{
-    background-image: url("images/hamburgermenu.jpg");
+    background-image: url("../images/hamburgermenu.jpg");
     position: absolute;
     right: 10px;
     top: 10px;
