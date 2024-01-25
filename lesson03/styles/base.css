@@ -1,10 +1,47 @@
 
+*{
+    box-sizing: border-box;
+}
 
-
+body {
+    text-align: center;
+    background-color: #F9F7F3;
+    margin: 0px;
+}
 
 .image {
-    width: 100vw;
+    width: 90vw;
     height: 100vh;
     display: block;
     margin: 0px auto;
+}
+
+.image2 {
+    width: 90vw;
+    height: 50vh;
+    display: block;
+    margin: 0px auto;
+}
+
+header {
+    background-color: #0FA3B1;
+    padding: 10px;
+}
+
+.heading {
+    border-bottom: 2px solid black;
+    background-color: #EDDEA4;
+    padding: 10px;
+    margin: 0px;
+}
+
+.box {
+    border: 2px solid black;
+    margin: 25px 20px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #0FA3B1;
+    padding: 10px;
 }
