@@ -65,6 +65,11 @@ nav ol li {
     margin: 15px;
 }
 
+nav ol li:hover {
+    color: #B5E2FA;
+    cursor: pointer;
+}
+
 .headshot{
     height: 20vh;
     width: 10;
