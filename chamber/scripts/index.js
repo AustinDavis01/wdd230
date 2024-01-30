@@ -1,13 +1,16 @@
 // Gather Elements needed
 const menu = document.getElementById("menu");
 const nav = document.getElementById("nav");
+const member = document.getElementById("member");
 
+// event listener for menu button
 menu.addEventListener("click", () => {
     menu.classList.toggle("show");
     nav.classList.toggle("show");
+    member.classList.toggle("em")
 })
 
-
+// Function for footer
 function year() {
     const date = document.getElementById("year")
 
