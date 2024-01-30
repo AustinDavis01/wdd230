@@ -1,3 +1,13 @@
+// Gather Elements needed
+const menu = document.getElementById("menu");
+const nav = document.getElementById("nav");
+
+menu.addEventListener("click", () => {
+    menu.classList.toggle("show");
+    nav.classList.toggle("show");
+})
+
+
 function year() {
     const date = document.getElementById("year")
 
@@ -17,12 +27,3 @@ function lastModifiedDate() {
 
 lastModifiedDate()
 year()
-
-// Gather Elements needed
-const menu = document.getElementById("menu");
-const nav = document.getElementById("nav");
-
-menu.addEventListener("click", () => {
-    menu.classList.toggle("show");
-    nav.classList.toggle("show");
-})

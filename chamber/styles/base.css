@@ -33,6 +33,10 @@ header {
     text-align: center;
 }
 
+.gap {
+    margin: 5px;
+}
+
 .right {
     text-align: right;
     margin-right: 10px;
@@ -77,11 +81,12 @@ nav ol li {
     padding: .5em;
     border-radius: 0.625em;
     text-align: center;
+    cursor: pointer;
 }
 
 section {
     border: 2px solid black;
-    margin: 25px 20px;
+    margin: 15px;
     border-radius: 10px;
 }
 
