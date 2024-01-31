@@ -96,10 +96,6 @@ nav ol li:hover {
     display: block;
 }
 
-.fa-solid, .fa-bars, .fa-2xl {
-    margin: 0px;
-    padding: 0px;
-}
 
 .sojo-image {
     width:100vw;
@@ -111,7 +107,7 @@ nav ol li:hover {
     border: 0.125rem solid black;
     background-color: #EDDEA4;
     position: absolute;
-    top: 17em;
+    top: 15em;
     left: .1em;
     right: .1em;
     padding: .5em;
@@ -125,7 +121,7 @@ nav ol li:hover {
     position: absolute;
     left: .1em;
     right: .1em;
-    top: 23.5em;
+    top: 20.5em;
 }
 
 section {
