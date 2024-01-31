@@ -56,7 +56,7 @@ header {
 
 .title {
     font-size: 14px;
-    margin-left: 0em 2em;
+    margin-left: 2em;
 }
 
 nav ol li {
@@ -72,7 +72,7 @@ nav ol li:hover {
 
 .headshot{
     height: 20vh;
-    width: 10;
+    width: 10vw;
     margin-right: 30px;
     border-radius: 10px;
 }
