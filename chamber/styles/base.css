@@ -5,10 +5,6 @@ body {
     background-color: #F9F7F3;
 }
 
-.fa-solid, .fa-earth-americas, .fa-2xl{
-    color: black;
-}
-
 .hide {
     display: none;
 }
