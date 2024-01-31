@@ -20,7 +20,7 @@ html, body{
 
 .headshot{
     height: 20vh;
-    width: 10;
+    width: 10vw;
     margin-right: 30px;
     border-radius: 10px;
 }
