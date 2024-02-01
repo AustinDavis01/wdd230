@@ -76,6 +76,10 @@ nav ol li:hover {
     border-radius: 10px;
 }
 
+.text {
+    text-decoration: none;
+}
+
 #menu{
     position: absolute;
     right: 10px;
