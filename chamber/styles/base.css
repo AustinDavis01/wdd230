@@ -60,6 +60,7 @@ header {
 
 nav ol li {
     list-style-type: none;
+    text-decoration: none;
     text-align: center;
     margin: 15px;
 }
