@@ -15,6 +15,11 @@
         display: flex;
     }
     
+    .headshot {
+        height: 20vh;
+        width: 12vw;
+    }
+
     .large-section {
         display: flex;
         justify-content: center;
