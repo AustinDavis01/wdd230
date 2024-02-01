@@ -4,12 +4,25 @@
         box-sizing: border-box;
     }
 
+    #menu {
+        display: none;
+    }
+
+    #nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+    }
+
     main{
         display: grid;
         grid-template-rows: 50vh 50vh 10vh 50vh 50vh;
         grid-template-columns: 30vw 30vw 10vw 30vw 30vw;
     }
-
 
 
     .medium {

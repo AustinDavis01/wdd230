@@ -12,7 +12,7 @@
     }
 
     #nav {
-        display: block;
+        display: flex;
     }
     
     .large-section {
