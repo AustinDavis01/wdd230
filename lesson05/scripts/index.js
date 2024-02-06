@@ -13,10 +13,13 @@ button.addEventListener("click", () => {
         // Populate List
         li.textContent = input.value;
         deleteButton.textContent = "❌";
+        deleteButton.classList.add("right");
 
         //append
         li.append(deleteButton);
         list.append(li);
+
+        
 
         deleteButton.addEventListener("click", function() {
             list.removeChild(li);

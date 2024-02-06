@@ -1,0 +1,23 @@
+body {
+    margin: 0px;
+    text-align: center;
+}
+
+main {
+    background-color: grey;
+    margin: 25px 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.lists {
+    list-style-type: none;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.right {
+
+    margin: 10px 150px;
+}
