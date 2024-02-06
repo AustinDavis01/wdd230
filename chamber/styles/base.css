@@ -46,16 +46,31 @@ header {
     text-align: center;
 }
 
+.logo {
+    width: 30vw;
+    height: 15vh;
+}
+
+.logo-footer{
+    width: 30vw;
+    height: 15vh;
+    margin-right: 10px;
+}
+
 .icons {
     display: flex;
-    justify-content: space-between;
-    margin: 0em 3em;
-    gap: 10px;
+    justify-content: left;
+    width: 5vw;
+    height: 5vh; 
+    margin-top: 10px;
+    margin-right: 50px;
 }
 
 .title {
     font-size: 14px;
     margin-left: 2em;
+    display: flex;
+    align-items: center;
 }
 
 nav ul{
@@ -95,8 +110,8 @@ nav ul li a:hover {
 
 #menu{
     position: absolute;
-    right: 10px;
-    top: 50px;
+    right: 5px;
+    top: 5px;
     color: black;
     margin: 0px;
 }
