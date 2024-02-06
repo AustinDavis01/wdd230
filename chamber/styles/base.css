@@ -2,7 +2,7 @@ body {
     font-family: 'Lato', sans-serif;
     margin: 0px;
     color: black;
-    background-color: #F9F7F3;
+    background-color: whitesmoke;
 }
 
 .hide {
@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    background-color: #0FA3B1;
+    background-color: white;
     padding: 1em 0.3em;
     display: flex;
     justify-content: space-around;
@@ -60,7 +60,7 @@ header {
 
 nav ul{
     list-style-type: none;
-    background-color: #0FA3B1;
+    background-color: #F7A072;
     padding: 10px;
     margin: 0px;
     text-align: center;
@@ -78,7 +78,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #B5E2FA;
+    color: white;
     cursor: pointer;
 }
 
@@ -147,7 +147,7 @@ section {
 }
 
 footer {
-    background-color: #0FA3B1;
+    background-color: whitesmoke;
     padding: 15px;
 }
 
