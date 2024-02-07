@@ -11,25 +11,20 @@ const title = document.querySelectorAll("h2");
 
 
 //Dark mode
-modeButton.addEventListener("click", function() {
-    modeButton.addEventListener("click", () => {
-        if (modeButton.textContent.includes("🕶️")) {
-            main.style.background = "#000000";
-            header.style.background = "#000000";
-            footer.style.background = "#000000";
-            body.style.color = "#FFFFFF";            
-            modeButton.textContent = "🔆";
-        } else {
-            main.style.background = "#FFFFFF";
-            header.style.background = "#FFFFFF";
-            footer.style.background = "#FFFFFF";
-            section.style.borderRadius = "10px";
-            body.style.color = "#000000";
-
-            modeButton.textContent = "🕶️";
-        }
-    });
-    
+modeButton.addEventListener("click", () => {
+    if (modeButton.textContent.includes("🕶️")) {
+        main.style.background = "#000000";
+        header.style.background = "#000000";
+        footer.style.background = "#000000";
+        body.style.color = "#FFFFFF";            
+        modeButton.textContent = "🔆";
+    } else {
+        main.style.background = "#FFFFFF";
+        header.style.background = "#FFFFFF";
+        footer.style.background = "#FFFFFF";
+        body.style.color = "#000000";
+        modeButton.textContent = "🕶️";
+    }
 });
 
 // event listener for menu button
