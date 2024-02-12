@@ -18,6 +18,23 @@ html, body{
     
 }
 
+.temple {
+    position: absolute;
+    top: 27%;
+    left: 4%;
+    font-size: small;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: lightblue;
+    color: black;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+  }
+
 .headshot{
     height: 20vh;
     width: 25vw;
