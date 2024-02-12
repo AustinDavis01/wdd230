@@ -25,6 +25,11 @@
         justify-content: center;
     }
 
+    .temple {
+        top: 55%;
+        font-size: large;
+    }
+
     .section1{
         width: 100vw;
     }

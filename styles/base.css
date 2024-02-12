@@ -18,6 +18,12 @@ html, body{
     
 }
 
+.down {
+        position: absolute;
+        left: .1em;
+        top: 19em;
+}
+
 .temple {
     position: absolute;
     top: 27%;
@@ -26,7 +32,7 @@ html, body{
     border: 2px solid black;
     padding: 5px;
     border-radius: 10px;
-    background-color: lightblue;
+    background-color: whitesmoke;
     color: black;
 }
 

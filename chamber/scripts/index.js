@@ -31,7 +31,7 @@ modeButton.addEventListener("click", () => {
 menu.addEventListener("click", () => {
     menu.classList.toggle("show");
     nav.classList.toggle("show");
-    member.classList.toggle("em")
+    member.classList.toggle("em");
 })
 
 // Function for footer
