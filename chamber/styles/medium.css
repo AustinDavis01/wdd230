@@ -24,6 +24,10 @@
         grid-template-columns: 30vw 30vw 10vw 30vw 30vw;
     }
 
+    .second-title {
+        top: 17em;
+    }
+
 
     .medium {
         grid-column: 1/3;
