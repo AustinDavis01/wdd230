@@ -5,6 +5,10 @@
         grid-template-columns: 33vw 33vw 33vw;
     }
 
+    .second-title {
+        top: 20em;
+    }
+
     #menu {
         display: none;
     }
