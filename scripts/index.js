@@ -7,8 +7,7 @@ menu.addEventListener("click", () => {
     menu.classList.toggle("show");
     nav.classList.toggle("show");
     temple.classList.toggle("down");
-
-
+    
 })
 
 

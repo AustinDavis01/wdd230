@@ -2,9 +2,7 @@
 @media (min-width: 600px) {
     nav ul {
         display: flex;
-        flex: 1 1 100%;
         justify-content: space-around;
-        margin-right: 1em;
     }
 
     #menu {
