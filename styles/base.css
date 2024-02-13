@@ -18,12 +18,6 @@ html, body{
     
 }
 
-.down {
-        position: absolute;
-        left: .1em;
-        top: 19em;
-}
-
 .temple {
     position: absolute;
     top: 27%;
@@ -36,10 +30,17 @@ html, body{
     color: black;
 }
 
+.down {
+    position: absolute;
+    left: 4%;
+    top: 63%;
+}
+
 .hero img {
     width: 100%;
     height: auto;
-  }
+
+}
 
 .headshot{
     height: 20vh;
