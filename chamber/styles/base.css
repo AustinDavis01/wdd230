@@ -175,6 +175,10 @@ section {
     border-radius: 0.63em;
 }
 
+.weather {
+    text-align: center;
+}
+
 footer {
     background-color: whitesmoke;
     padding: 15px;
