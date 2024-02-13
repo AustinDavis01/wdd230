@@ -156,6 +156,11 @@ nav ul li a:hover {
     margin: 11px;
 }
 
+picture img {
+    width: 100vw;
+    height: 51vh;
+  }
+
 .em {
     position: absolute;
     left: .1em;
