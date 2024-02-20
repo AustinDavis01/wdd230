@@ -83,7 +83,7 @@
 
 
     /* Discover page */
-    main{
+    .discover{
         display: grid;
         grid-template-rows: 60vh 60vh 60vh 60vh 60vh 60vh;
         grid-template-columns: 55vh 70vh;
@@ -107,8 +107,8 @@
 
     .img-details{
         background-size: cover;
-        width:56vw;
-        height: 56vh;
+        width:53vw;
+        height: 55vh;
         margin: 15px 0px;
         border: 2px solid black;
         border-radius: 10px;

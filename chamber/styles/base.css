@@ -160,7 +160,9 @@ picture img {
     width: 100vw;
     height: 51vh;
     margin-bottom: 30px;
-  }
+}
+
+
 
 .em {
     position: absolute;
@@ -208,6 +210,19 @@ footer {
 .foot-info {
     text-align: center;
     color: gold;
+}
+
+/* Discover page mobile version */
+
+.img-details{
+    background-size: cover;
+    width:95vw;
+    height: 60vh;
+    display: block;
+    margin: 15px auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    
 }
 
 
