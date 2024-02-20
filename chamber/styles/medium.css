@@ -81,4 +81,49 @@
         margin-right: 25px;
     }
 
+
+    /* Discover page */
+    main{
+        display: grid;
+        grid-template-rows: 60vh 60vh 60vh 60vh 60vh 60vh;
+        grid-template-columns: 55vh 70vh;
+        
+    }
+
+    .s-d1{
+        grid-row: 1/3;
+        grid-column: 1/2;
+    }
+
+    .s-d2{
+        grid-row: 3/5;
+        grid-column: 1/2;
+    }
+
+    .s-d3{
+        grid-row: 5/7;
+        grid-column: 1/2;
+    }
+
+    .img-details{
+        background-size: cover;
+        width:56vw;
+        height: 56vh;
+        margin: 15px 0px;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+
+    .img1{
+        grid-row: 1/2;
+        grid-column: 2/3;
+    }
+
+    .img2{
+        grid-row: 2/3;
+        grid-column:2/3;
+        background-size: cover;
+    }
+
+
 }
