@@ -1,3 +1,4 @@
+
 // Gather Elements needed
 const menu = document.getElementById("menu");
 const nav = document.getElementById("nav");
@@ -28,7 +29,6 @@ if (numVisits != 0) {
 }
 
 numVisits++;
-
 
 
 
