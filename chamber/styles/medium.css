@@ -1,4 +1,4 @@
-@media (min-width: 750px)
+@media (min-width: 650px)
 {
     *{
         box-sizing: border-box;
@@ -107,11 +107,15 @@
 
     .img-details{
         background-size: cover;
-        width:52vw;
+        width:70vw;
         height: 55vh;
         margin: 15px 0px;
         border: 2px solid black;
         border-radius: 10px;
+    }
+
+    .img-details:hover {
+        filter: blur(1px) grayscale(50%);
     }
 
     .img1{
