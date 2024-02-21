@@ -107,10 +107,9 @@ nav a {
 
  }
 
- ol li {
-    cursor: pointer;
-    margin: 20px 0px;
-    text-align: left;
+
+ nav ul li a:hover {
+    color: black;
  }
 
 .card-title{
