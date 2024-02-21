@@ -8,6 +8,8 @@ const header = document.querySelector("header");
 const body = document.querySelector("body");
 const footer = document.querySelector("footer");
 const title = document.querySelectorAll("h2");
+const section = document.querySelector("section");
+const visits = document.getElementById("visits");
 
 
 //Dark mode
@@ -16,6 +18,8 @@ modeButton.addEventListener("click", () => {
         main.style.background = "#000000";
         header.style.background = "#000000";
         footer.style.background = "#000000";
+        section.style.background = "#FFFFFF";
+        section.style.border = "2px solid white";
         body.style.color = "#FFFFFF";            
         modeButton.textContent = "🔆";
     } else {
@@ -51,6 +55,19 @@ function lastModifiedDate() {
 
     lastMod.innerText = mod
 }
+
+// make passenger counter on home page.
+let numVisits = Number( localStorage.getItem("numVisits")) || 0;
+
+if (numVisits != 0) {
+	visits.textContent = `Visits: ${numVisits}`;
+} else {
+	visits.textContent = `Visits: This is your first visit. 🥳 Welcome!`;
+}
+
+numVisits++;
+
+window.localStorage.setItem("numVisits", numVisits);
 
 
 lastModifiedDate()
