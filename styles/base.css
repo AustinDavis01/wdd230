@@ -98,11 +98,12 @@ nav a {
     color: white;
 }
 
- nav ul li  {
+ nav ul li  a{
     list-style-type: none;
     margin: 20px 70px;
     cursor: pointer;
     color: white;
+    font-size: 18px;
 
 
  }
