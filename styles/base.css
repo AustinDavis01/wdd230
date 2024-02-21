@@ -103,7 +103,7 @@ nav a {
     list-style-type: none;
     margin: 20px 70px;
     cursor: pointer;
-    color: white;
+    color: black;
     font-size: 18px;
 
 
@@ -111,7 +111,7 @@ nav a {
 
 
  nav ul li a:hover {
-    color: black;
+    color: white;
  }
 
 .card-title{
