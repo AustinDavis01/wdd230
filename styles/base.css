@@ -96,9 +96,10 @@ nav ul li:hover{
 nav a {
     text-decoration: none;
     color: white;
+    font-size: 18px;
 }
 
- nav ul li  a{
+ nav ul li{
     list-style-type: none;
     margin: 20px 70px;
     cursor: pointer;
