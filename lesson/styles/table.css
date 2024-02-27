@@ -1,0 +1,20 @@
+
+table {
+    display: block;
+    text-align: center;
+    width: 50vw;
+    height: 50vh;
+    margin: 32%
+}
+caption{
+    background-color: black;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.black {
+    background-color: black;
+}
+ tr:nth-child(3) {
+    background-color: lightgray;
+ }
