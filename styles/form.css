@@ -1,3 +1,7 @@
+:root {
+    --lightgray: #d3d3d3;
+}
+
 fieldset label{
     display: flex;
     color: black;
@@ -10,6 +14,7 @@ fieldset label{
     height: 5vh;
     width: 10vw;
     margin: 10px auto
+    var(--lightgray)
 }
 
 input {
@@ -24,6 +29,3 @@ input {
     margin-left: 23px;
 }
 
-form:root {
-    background-color: black;
-}
