@@ -43,26 +43,31 @@
     </nav>
 
     <main>
-        <h2>Join Us!</h2>
-        <form method="get" action="thankyou.html">
-            <fieldset>
-                <label>First Name <input name="fname" type="text" id="fname" required></label>
-                <label>Last Name <input name="lname" type="text" id="lname" required></label>
-                <label class="left">Position <input name="Position" type="text" id="Position" pattern="^[a-zA-Z\- ]{7,}$" required></label>
-                <label>Email <input class="right" name="Email" type="email"  required placeholder="someone@gmail.com"></label>
-                <label>Phone <input name="Phone" id="phone" type="tel" required></label>
-                <label> Business <input type="text" name="Business" id="Business"></label>
-                <label>Buisness Description<textarea name="textarea" id="textarea"></textarea>
-                <label class="top">Membership Level
-                    <select name="Membership">
-                        <option value="">Please Select</option>
-                    <option value="NP">NP Membership</option>
-                    <option value="Bronze">Bronze Membership</option>
-                    <option value="Silver">Silver Membership</option>
-                    </select>
-                </label>
-                <input type="hidden" name="hidden" id="hidden">
-            </fieldset>
+        <h2 class="join">Join Us!</h2>
+        <div>
+            <form class="" method="get" action="thankyou.html">
+                <fieldset>
+                    <label>First Name <input name="fname" type="text" id="fname" required></label>
+                    <label>Last Name <input name="lname" type="text" id="lname" required></label>
+                    <label>Position <input class="right" name="Position" type="text" id="Position" pattern="^[a-zA-Z\- ]{7,}$" required></label>
+                    <label>Email <input class="right email" name="Email" type="email"  required placeholder="someone@gmail.com"></label>
+                    <label>Phone <input class="right" name="Phone" id="phone" type="tel" required></label>
+                    <label> Business <input type="text" name="Business" id="Business"></label>
+                    <label>Buisness Description<textarea name="textarea" id="textarea"></textarea>
+                    <label class="top">Membership Level
+                        <select name="Membership">
+                            <option value="">Please Select</option>
+                        <option value="NP">NP Membership</option>
+                        <option value="Bronze">Bronze Membership</option>
+                        <option value="Silver">Silver Membership</option>
+                        </select>
+                    </label>
+                    <input class="join" type="hidden" name="hidden" id="hidden">
+                </fieldset>
+
+                <input class="submit" type="submit" name="submit" value="Join">
+            </form>
+        </div>
     </main>
 
     <footer>

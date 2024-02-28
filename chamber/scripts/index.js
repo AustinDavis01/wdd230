@@ -10,6 +10,7 @@ const footer = document.querySelector("footer");
 const title = document.querySelectorAll("h2");
 const section = document.querySelector("section");
 const visits = document.getElementById("visits");
+const hidden = document.getElementById("hidden")
 
 
 //Dark mode
@@ -54,6 +55,7 @@ function lastModifiedDate() {
     let mod = new Date(document.lastModified)
 
     lastMod.innerText = mod
+    hidden = mod.today();
 }
 
 // make passenger counter on home page.
