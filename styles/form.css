@@ -23,3 +23,7 @@ input {
 .right{
     margin-left: 23px;
 }
+
+:root {
+    background-color: black;
+}
