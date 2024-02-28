@@ -13,8 +13,9 @@ fieldset label{
     display: block;
     height: 5vh;
     width: 10vw;
-    margin: 10px auto
-    var(--lightgray)
+    margin: 10px auto;
+    border-radius: 5px;
+    background-color: var(--lightgray);
 }
 
 input {
