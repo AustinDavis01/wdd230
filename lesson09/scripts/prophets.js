@@ -32,3 +32,4 @@ async function getProphetData() {
     }
 
   getProphetData();
+  displayProphets();
