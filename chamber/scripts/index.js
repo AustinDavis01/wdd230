@@ -1,3 +1,5 @@
+listbutton.addEventListener("click", showList); // example using defined function
+
 // Gather Elements needed
 const menu = document.getElementById("menu");
 const nav = document.getElementById("nav");
@@ -10,7 +12,7 @@ const footer = document.querySelector("footer");
 const title = document.querySelectorAll("h2");
 const section = document.querySelector("section");
 const visits = document.getElementById("visits");
-const hidden = document.getElementById("hidden")
+const hidden = document.getElementById("hidden");
 
 
 //Dark mode
@@ -74,3 +76,24 @@ window.localStorage.setItem("numVisits", numVisits);
 
 lastModifiedDate()
 year()
+
+// // directory page
+// const gridbutton = document.querySelector("#grid");
+// const listbutton = document.querySelector("#list");
+// const display = document.querySelector("article");
+
+// // The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
+
+// gridbutton.addEventListener("click", () => {
+// 	// example using arrow function
+// 	display.classList.add("grid");
+// 	display.classList.remove("list");
+// });
+
+// listbutton.addEventListener("click", showList); // example using defined function
+
+// function showList() {
+//     console.log("hi");
+// 	display.classList.add("list");
+// 	display.classList.remove("grid");
+// }
