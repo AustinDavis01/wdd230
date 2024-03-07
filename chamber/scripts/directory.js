@@ -24,5 +24,5 @@ async function getProphetData() {
     const response = await fetch(url);
 	console.log("hi")
     const data = await response.json();
-    console.table(data.prophets); // temporary testing of data retreival
+    console.table(data); // temporary testing of data retreival
   }
