@@ -20,9 +20,13 @@ function showList() {
 	display.classList.remove("grid");
 }
 
-async function getProphetData() {
-    const response = await fetch(url);
-	console.log("hi")
-    const data = await response.json();
-    console.table(data); // temporary testing of data retreival
-  }
+fetch("data/members.json")
+	.then(res => res.json())
+	.then(data => {
+		console.log(data);
+
+		
+
+
+	})
+
