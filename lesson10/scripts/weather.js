@@ -9,6 +9,6 @@ fetch(url)
     .then(data => {
         console.log(data)
         currentTemp.innerHTML = `${data.main.temp} F`;
-        weatherIcon.innerHTML = `${data.weather."0".icon}`
+        weatherIcon.innerHTML = `${data.weather.icon}`;
 
     })
