@@ -110,6 +110,22 @@ nav ul li a:hover {
     width: 10vw;
     margin-right: 30px;
     border-radius: 10px;
+
+}
+
+.greet {
+    text-align: center;
+    padding: 10px;
+    border: 2px black solid;
+    border-radius: 10px;
+    margin: 0px 5px;
+    display: none;
+    background-color: #EDDEA4;
+}
+
+.exits {
+    margin-left: 5em;
+
 }
 
 .text {
