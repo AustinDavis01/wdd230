@@ -12,7 +12,12 @@ fetch("https://api.openweathermap.org/data/2.5/weather?lat=40.5622&lon=-111.9297
 
         // windspeed display
         let windSpeed = data.wind.speed;
-        document.getElementById("wind-speed").textContent = `Wind speed: ${windSpeed}-mph`  
+        document.getElementById("wind-speed").textContent = `Wind speed: ${windSpeed} mph`  
+
+        // forcast
+        let forcast = document.getElementById("forcast").textContent = `Forcast: ${data.weather[0].description}`
+
+        // icon
         
         // Wind chill calulate and display
         if (fTemp <= 50 && windSpeed > 3)

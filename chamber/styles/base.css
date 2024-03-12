@@ -177,12 +177,15 @@ section {
     border-radius: 0.63em;
 }
 
+section p
+{
+    margin: 1rem;
+}
+
 .weather {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
-
 }
 
 footer {
