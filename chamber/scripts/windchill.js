@@ -15,10 +15,16 @@ fetch("https://api.openweathermap.org/data/2.5/weather?lat=40.5622&lon=-111.9297
         document.getElementById("wind-speed").textContent = `Wind speed: ${windSpeed} mph`  
 
         // forcast
-        let forcast = document.getElementById("forcast").textContent = `Forcast: ${data.weather[0].description}`
+        document.getElementById("forcast").textContent = `Forcast: ${data.weather[0].description}`
 
         // icon
-        
+        let icon = data.weather[0].icon;
+        let url = `https://openweathermap.org/img/w/${icon}.png`;
+
+        document.getElementById("icon").setAttribute("src", url);
+
+
+
         // Wind chill calulate and display
         if (fTemp <= 50 && windSpeed > 3)
         {

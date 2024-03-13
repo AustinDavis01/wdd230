@@ -178,8 +178,6 @@ picture img {
     margin-bottom: 30px;
 }
 
-
-
 .em {
     position: absolute;
     left: .1em;
@@ -269,8 +267,6 @@ form{
 form fieldset label input {
     margin: 15px 0px;
 }
-
-
 
 .right{
     margin-left: 17px;
@@ -394,7 +390,6 @@ section a {
 
 img {
 	height: 75px;
-	max-width: 100%; /* Images are jerks - Seattle*/
 }
 
 
