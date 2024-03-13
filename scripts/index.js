@@ -30,8 +30,6 @@ fetch("https://api.openweathermap.org/data/2.5/weather?units=imperial&lat=40.562
         document.getElementById("tempature").textContent =  `${temp.toFixed(1)} °F  - ${data.weather[0].description}`; 
         document.getElementById("weathericon").setAttribute("src", url);
 
-        
-
     })
 
 
