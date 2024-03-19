@@ -68,6 +68,7 @@ header {
 
 .title {
     font-size: 14px;
+    margin-top: 10px;
     margin-left: 2em;
     display: flex;
     align-items:  center;
@@ -118,9 +119,9 @@ nav ul li a:hover {
     padding: 10px;
     border: 2px black solid;
     border-radius: 10px;
-    margin: 0px 5px;
     display: none;
     background-color: #EDDEA4;
+    
 }
 
 .exits {
@@ -135,7 +136,6 @@ nav ul li a:hover {
 #menu{
     position: absolute;
     right: 5px;
-    top: 5px;
     color: black;
     margin: 0px;
 }
