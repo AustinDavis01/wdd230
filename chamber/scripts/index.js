@@ -28,6 +28,7 @@ modeButton.addEventListener("click", () => {
         main.style.background = "#FFFFFF";
         header.style.background = "#FFFFFF";
         footer.style.background = "#FFFFFF";
+        section.style.background = "#eee"
         body.style.color = "#000000";
         modeButton.textContent = "🕶️";
     }
