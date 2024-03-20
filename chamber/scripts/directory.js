@@ -62,7 +62,7 @@ fetch(url)
 			let section = `<section class="medium2 large2">
 				<h2 class="heading">${repo.name}</h2>
 				<div>
-					<img src="${repo.image}">
+					<img src="data/${repo.image}">
 					<p>${repo.adresses}</p>
 					<p>${repo.phone}</p>
 					<p>${repo.website}</p>
