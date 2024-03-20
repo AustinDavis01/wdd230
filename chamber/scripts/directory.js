@@ -66,8 +66,7 @@ fetch(url)
 					<p>${repo.adresses}</p>
 					<p>${repo.phone}</p>
 					<p>${repo.website}</p>
-					<p>${repo.}</p>
-					<p>Date: Febuary 17th 6:30pm - 8:30pm</p>
+					<p>${repo.membership}</p>
 				</div>
 			</section>`
 			display.innerHTML += section;
