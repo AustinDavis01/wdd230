@@ -12,6 +12,9 @@ const title = document.querySelectorAll("h2");
 const section = document.querySelector("section");
 const visits = document.getElementById("visits");
 const hidden = document.getElementById("hidden");
+const url = "https://austindavis01.github.io/wdd230/chamber/data/spotlight.json"
+const article = document.getElementById("articlehome");
+
 
 
 //Dark mode
@@ -40,6 +43,30 @@ menu.addEventListener("click", () => {
     nav.classList.toggle("show");
     member.classList.toggle("em");
 })
+
+// fetch data an render
+fetch(url)
+    .then((res) => res.json())
+    .then((data) => {
+
+        let num = 4 
+        data.buisness.forEach((repo) => {
+        
+			let sections = `
+            <section class="medium${num} large${num}">
+                <h2 class="heading2">${repo.name}</h2>
+                    <p class="right">"${repo.qoute}"</p>
+                        <div class="middle">
+                            <p>${repo.email}</p>
+                            <p>${repo.number}</p>
+                            <P><a href="#">${repo.website}</a></P>
+                        </div>
+            </section>`
+			article.innerHTML += sections;
+            num = num + 1
+		  });
+
+    })
 
 // Function for footer
 function year() {

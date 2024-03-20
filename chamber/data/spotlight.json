@@ -2,29 +2,29 @@
     "buisness" : [
         {
             "name" : "Coding Kidos",
-            "adresses" : "123 street, slc utah",
+            "email" : "help@codingkidos.com",
             "phone" : "801-993-8962",
             "website" : "codingkidos.com",
             "image" : "codingkids.webp",
-            "membership" : "Silver Membership"
+            "qoute" : "Learning to code"
         },
     
         {
             "name" : "Vr Gym Studio",
-            "adresses" : "123 street, slc utah",
+            "email" : "help@vrworkout.com",
             "phone" : "801-993-8362",
             "website" : "vrgymstudio.com",
             "image" : "vrworkout.webp",
-            "membership" : "Premium Member"
+            "qoute" : "Vr Workouts!"
         },
     
         {
             "name" : "pizzaplanet",
-            "adresses" : "1256 street, slc utah",
+            "email" : "info@pizzaplanet.com",
             "phone" : "801-993-8322",
             "website" : "pizzaplanet.com",
             "image" : "pizza_planet.webp",
-            "membership" : "Silver Member"
+            "qoute" : "Best pizza on the planet!"
             
         }
     ]
