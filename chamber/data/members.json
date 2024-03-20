@@ -3,8 +3,8 @@
         {
             "name" : "Coding Kidos",
             "adresses" : "123 street, slc utah",
-            "phone" : "801-993-8362",
-            "Website" : "codingkidos.com",
+            "phone" : "801-993-8962",
+            "website" : "codingkidos.com",
             "image" : "codingkidos.webp",
             "membership" : "Silver Membership"
         },
@@ -13,7 +13,7 @@
             "name" : "Vr Gym Studio",
             "adresses" : "123 street, slc utah",
             "phone" : "801-993-8362",
-            "Website" : "vrgymstudio.com",
+            "website" : "vrgymstudio.com",
             "image" : "vrgym.webp",
             "membership" : "Premium Member"
         },
@@ -21,8 +21,8 @@
         {
             "name" : "pizzaplanet",
             "adresses" : "1256 street, slc utah",
-            "phone" : "801-993-8362",
-            "Website" : "pizzaplanet.com",
+            "phone" : "801-993-8322",
+            "website" : "pizzaplanet.com",
             "image" : "pizzaplanet.webp",
             "membership" : "Premium Member"
         }
