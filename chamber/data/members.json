@@ -14,7 +14,7 @@
             "adresses" : "123 street, slc utah",
             "phone" : "801-993-8362",
             "website" : "vrgymstudio.com",
-            "image" : "pizza_planet.webp",
+            "image" : "vrworkout.webp",
             "membership" : "Premium Member"
         },
 
@@ -23,8 +23,9 @@
             "adresses" : "1256 street, slc utah",
             "phone" : "801-993-8322",
             "website" : "pizzaplanet.com",
-            "image" : "vrworkout.webp",
+            "image" : "pizza_planet.webp",
             "membership" : "Premium Member"
+            
         }
     ]
 }
