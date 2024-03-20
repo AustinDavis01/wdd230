@@ -64,7 +64,9 @@ fetch(url)
 				<div>
 					<img src="${repo.image}">
 					<p>${repo.adresses}</p>
-					<p>${repo.phone numbers}</p>
+					<p>${repo.phone}</p>
+					<p>${repo.website}</p>
+					<p>${repo.}</p>
 					<p>Date: Febuary 17th 6:30pm - 8:30pm</p>
 				</div>
 			</section>`
