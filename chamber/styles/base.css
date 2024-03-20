@@ -375,7 +375,7 @@ section {
 }
 
 .list section:nth-child(even) {
-	background-color: #bed;
+	background-color: lightsteelblue;
 }
 
 section h3 {

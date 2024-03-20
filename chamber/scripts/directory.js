@@ -57,7 +57,7 @@ fetch(url)
 	.then(res => res.json())
 	.then(data => {
 
-		data.Buisness.forEach((repo) => {
+		data.buisness.forEach((repo) => {
 
 			let section = `<section class="medium2 large2">
 				<h2 class="heading">${repo.name}</h2>
