@@ -5,7 +5,7 @@
             "adresses" : "123 street, slc utah",
             "phone" : "801-993-8962",
             "website" : "codingkidos.com",
-            "image" : "codingkidos.webp",
+            "image" : "https://brightchamps.com/blog/wp-content/uploads/2023/05/shutterstock_2036186204-3-1.jpg",
             "membership" : "Silver Membership"
         },
 
@@ -14,7 +14,7 @@
             "adresses" : "123 street, slc utah",
             "phone" : "801-993-8362",
             "website" : "vrgymstudio.com",
-            "image" : "vrgym.webp",
+            "image" : "https://vrcover.com/wp-content/uploads/2022/08/VR-Fitness-Apps-to-Work-Out-Your-Body-Arms-and-Legs.jpg",
             "membership" : "Premium Member"
         },
 
@@ -23,7 +23,7 @@
             "adresses" : "1256 street, slc utah",
             "phone" : "801-993-8322",
             "website" : "pizzaplanet.com",
-            "image" : "pizzaplanet.webp",
+            "image" : "https://i.etsystatic.com/22901976/r/il/c62eb7/2328299146/il_fullxfull.2328299146_r556.jpg",
             "membership" : "Premium Member"
         }
     ]
