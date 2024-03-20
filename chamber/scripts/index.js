@@ -12,7 +12,7 @@ const title = document.querySelectorAll("h2");
 const section = document.querySelector("section");
 const visits = document.getElementById("visits");
 const hidden = document.getElementById("hidden");
-const url = "https://github.com/AustinDavis01/wdd230/blob/main/chamber/data/spotlight.json"
+const url = "https://github.com/AustinDavis01/wdd230/main/chamber/data/spotlight.json"
 const article = document.getElementById("articlehome");
 
 
