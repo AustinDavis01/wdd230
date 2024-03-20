@@ -3,12 +3,12 @@
         {
             "name" : "Coding Kidos",
             "adresses" : "123 street, slc utah",
-            "phone numbers" : "801-993-8362",
+            "phone" : "801-993-8362",
             "Webiste" : "codingkidos.com",
             "image" : "codingkidos.webp",
             "membership" : "Silver Membership"
         },
-        
+
         {
             "name" : "Vr Gym Studio",
             "adresses" : "123 street, slc utah",

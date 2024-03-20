@@ -62,8 +62,9 @@ fetch(url)
 			let section = `<section class="medium2 large2">
 				<h2 class="heading">${repo.name}</h2>
 				<div>
-					<h3>Charity Walk - Mamas delights</h3>
-					<p>Mamas delgights would like to invote you to a charity walk for adoption agencies.  </p>
+					<img src="${repo.image}">
+					<p>${repo.adresses}</p>
+					<p>${repo.phone numbers}</p>
 					<p>Date: Febuary 17th 6:30pm - 8:30pm</p>
 				</div>
 			</section>`
