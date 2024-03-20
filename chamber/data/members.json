@@ -26,6 +26,51 @@
             "image" : "pizza_planet.webp",
             "membership" : "Premium Member"
             
+        },
+
+        {
+            "name" : "Vr Gym Studio",
+            "adresses" : "123 street, slc utah",
+            "phone" : "801-993-8362",
+            "website" : "vrgymstudio.com",
+            "image" : "vrworkout.webp",
+            "membership" : "Premium Member"
+        },
+
+        {
+            "name" : "Vr Gym Studio",
+            "adresses" : "123 street, slc utah",
+            "phone" : "801-993-8362",
+            "website" : "vrgymstudio.com",
+            "image" : "vrworkout.webp",
+            "membership" : "Premium Member"
+        },
+
+        {
+            "name" : "Vr Gym Studio",
+            "adresses" : "123 street, slc utah",
+            "phone" : "801-993-8362",
+            "website" : "vrgymstudio.com",
+            "image" : "vrworkout.webp",
+            "membership" : "Premium Member"
+        },
+
+        {
+            "name" : "Vr Gym Studio",
+            "adresses" : "123 street, slc utah",
+            "phone" : "801-993-8362",
+            "website" : "vrgymstudio.com",
+            "image" : "vrworkout.webp",
+            "membership" : "Premium Member"
+        },
+
+        {
+            "name" : "Vr Gym Studio",
+            "adresses" : "123 street, slc utah",
+            "phone" : "801-993-8362",
+            "website" : "vrgymstudio.com",
+            "image" : "vrworkout.webp",
+            "membership" : "Premium Member"
         }
     ]
 }

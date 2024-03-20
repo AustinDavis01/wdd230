@@ -314,6 +314,13 @@ form fieldset label input {
 	text-align: center;
 }
 
+.bussimage{
+    width: 50vw;
+    height: 25vh;
+    margin: 5px auto 0px auto;
+    background-size: cover;
+}
+
 .menu button {
 	padding: 1rem;
 	font-weight: 700;

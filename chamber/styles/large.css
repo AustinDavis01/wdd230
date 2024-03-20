@@ -120,6 +120,11 @@
     .img6{
         grid-row: 5/6;
         grid-column:3/4;    }
+    
+    .bussimage{
+        width: 40vw;
+        height: 50vh;
+    }
 
 
 }
