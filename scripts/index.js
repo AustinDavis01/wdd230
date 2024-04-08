@@ -15,7 +15,6 @@ menu.addEventListener("click", () => {
     
 })
 
-console.log("hi")
 // Fetch api 
 fetch("https://api.openweathermap.org/data/2.5/weather?units=imperial&lat=40.5622&lon=-111.9297&appid=2182407fe8adf3fe7aed195903bf92aa")
     .then( res =>  res.json())
