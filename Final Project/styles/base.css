@@ -29,6 +29,11 @@ html, body{
     list-style-type: none;
 }
 
+.navigation ul li a {
+    color: black;
+    text-decoration: none;
+}
+
 .navigation ul li a:hover {
     border-bottom: 2px solid black;
     cursor: pointer;
