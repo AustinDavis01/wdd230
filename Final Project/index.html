@@ -14,19 +14,18 @@
     <meta property="og:type" content="Website" >
     <meta property="og:url" content="https://austindavis01.github.io/wdd230/chamber/index.html" >
     <meta property="og:image" content="https://austindavis01.github.io/wdd230/chamber/index.html" >
-    <title>South Jordan Chamber of Commerce Home page</title>
+    <title>Scoots Rental Scooter Co.</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
 </head>
 <body>
     <a id="menu" href="#"></a>
     <nav id="nav" class="navigation">
         <ul>
-            <li><a>Home</a></li>
-            <li><a>Rentals</a></li>
-            <li><a>Reservations</a></li>
-            <li><a> Contact</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="rental.html">Rentals</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+            <li><a href="contact.html"> Contact</a></li>
         </ul>
     </nav>
     <header class="header">
@@ -36,12 +35,28 @@
     <main>
         <section class="section">
             <h2>Rent from us!</h2>
-            <h3></h3>
+            <div>
+                <div class="box">
+                    <a href="rental.html"><Img class="side-image" src="images/atv.webp"></a>
+                    <h3>Rent ATV</h3>
+
+                </div>
+                <div class="box">
+                    <a href="rental.html"><Img class="side-image" src="images/jeep.webp"></a>
+                    <h3>Rent Jeep</h3>
+
+                </div>
+                <div class="box">
+                    <a href="rental.html"><Img class="side-image" src="images/scooter.webp"></a>
+                    <h3>Rent Scooter</h3>
+
+                </div>
+            </div>
         </section>
 
         <section>
-            <h2>Summary</h2>
-            <p>Scoots motor scooter rental company located on the island of Cozumel off the coast of Mexico in the western Caribbean Sea. This owner-operator company caters to locals, walk-in tourists, motor scooter enthusiasts, and cruise-based touring groups and partnerships. The company has two physical rental locations on Cozumel. One is near the Playa del Carmen-Cozumel Ferry dock in el Centro de Cozumel and the other is near the Terminal Puerta Maya further south along the coast which caters to the cruise lines and patrons. The company promotes friendly and easy to rent services of motor scooters, jeeps, and side-by-sides ATVs.</p>
+            <h2>About Us</h2>
+            <p class="summary">Scoots motor scooter rental company located on the island of Cozumel off the coast of Mexico in the western Caribbean Sea. This owner-operator company caters to locals, walk-in tourists, motor scooter enthusiasts, and cruise-based touring groups and partnerships. The company has two physical rental locations on Cozumel. One is near the Playa del Carmen-Cozumel Ferry dock in el Centro de Cozumel and the other is near the Terminal Puerta Maya further south along the coast which caters to the cruise lines and patrons. The company promotes friendly and easy to rent services of motor scooters, jeeps, and side-by-sides ATVs.</p>
         </section>
 
         <section>
@@ -50,8 +65,8 @@
                 <div class="nav-info">
                     <ul>
                         <h3>Locations</h3>
-                        <li><a href="#">Cozumel</a></li>
-                        <li><a href="#">Puerta Maya</a></li>
+                        <li><a href="reservations.html">Cozumel</a></li>
+                        <li><a href="reservations.html">Puerta Maya</a></li>
                     </ul>
                 </div>
                 <div class="contact-info">
@@ -66,6 +81,14 @@
 
         <section>
             <h2>Weather Forecast</h2>
+            <div class="weather-blocks">
+                <h3>Cozumel:</h3>
+                <div class="side">
+                    <img src="" id="weathericon">
+                    <h4 id="tempature"></h4>
+                </div>
+            </div>
+
         </section>
     </main>
     <footer>

@@ -53,7 +53,11 @@ section {
     border: 1px solid black;
     border-radius: 4px;
     margin: 10px;
-    background-color:skyblue;
+    background-color: burlywood;
+}
+
+.summary {
+    margin: 10px;
 }
 
 .blocks ul li {
@@ -62,6 +66,26 @@ section {
 
 .blocks ul {
     margin-right: 2em;
+}
+
+.side {
+    display: flex;
+    justify-content: center;
+}
+
+.side-image {
+    display: block;
+    background-size: cover;
+    border: 1px solid black;
+    border-radius: 100px;
+    width: 10em;
+    margin: 10px auto;
+}
+
+.box:hover {
+    border: 1px solid black;
+    margin: 0px 50px;
+    cursor: pointer;
 }
 
 
