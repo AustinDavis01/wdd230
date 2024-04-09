@@ -29,6 +29,11 @@ html, body{
     list-style-type: none;
 }
 
+.navigation ul li a:hover {
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+
 .show {
     display: block;
 }
@@ -46,6 +51,30 @@ html, body{
 
 section {
     border: 1px solid black;
-    border-radius: 10px;
+    border-radius: 4px;
     margin: 10px;
+    background-color:skyblue;
+}
+
+.blocks ul li {
+    list-style-type: none;
+}
+
+.blocks ul {
+    margin-right: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color:#353935;
+    color: white;
+    padding: 10px;
 }
