@@ -91,16 +91,8 @@ section {
     border: 1px solid black;
     margin: 0px 50px;
     cursor: pointer;
+    opacity: .75;
 }
-
-
-
-
-
-
-
-
-
 
 footer {
     background-color:#353935;
