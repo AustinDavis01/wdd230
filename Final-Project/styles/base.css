@@ -110,6 +110,7 @@ footer {
 	grid-gap: 5px;
 	align-items: center;
     justify-content: center;
+    background-color: aliceblue;
 }
 
 /* reservation page */
