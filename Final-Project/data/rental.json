@@ -43,7 +43,7 @@
 
         {
             "name" : "Honda Pioneer ATV",
-            "max-persons" : 4,
+            "max-persons" : 2,
             "halfdayreservation" : 50,
             "fulldayreservation" : 70,
             "halfdaywalkin" : 85,
