@@ -7,7 +7,7 @@
             "fulldayreservation" : 30,
             "halfdaywalkin" : 25,
             "fulldaywalkin" : 35,
-            "image": "scooter.wepb"
+            "image": "scooter.webp"
         },
 
         {
@@ -58,7 +58,7 @@
             "fulldayreservation" : 100,
             "halfdaywalkin" : 85,
             "fulldaywalkin" : 125,
-            "jeep": "jeep.webp"
+            "image": "jeep.webp"
         },
 
         {
@@ -68,7 +68,7 @@
             "fulldayreservation" : 85,
             "halfdaywalkin" : 70,
             "fulldaywalkin" : 90,
-            "jeep": "jeep.webp"
+            "image": "jeep.webp"
         }
     ]
 }

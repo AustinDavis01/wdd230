@@ -97,3 +97,9 @@ footer {
     color: white;
     padding: 10px;
 }
+
+/* rental page */
+.rentals {
+    background-color: blanchedalmond;
+    max-width: 100vw;
+}

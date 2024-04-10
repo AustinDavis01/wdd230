@@ -8,11 +8,11 @@ fetch(url)
 
 		data.rental.forEach((repo) => {
 
-			let section = `<section">
+			let section = `<section class="rentals">
 				<h2 class="heading">${repo.name}</h2>
 				<div>
 					<div>
-						<img class="bussimage" src="images/${repo.image}">
+						<img class="side-image" src="images/${repo.image}">
 					</div>
 					<div>
 						<div>
