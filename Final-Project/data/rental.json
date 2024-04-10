@@ -1,12 +1,12 @@
 {
-    "rental-info" : [
+    "rental" : [
         {
             "name" : "Honda Metro Scooter",
-            "max-persons" : 1,
-            "half-day-reservation" : 20,
-            "full-day-reservation" : 30,
-            "half-day-walkin" : 25,
-            "full-day-walkin" : 35,
+            "maxpersons" : 1,
+            "halfdayreservation" : 20,
+            "fulldayreservation" : 30,
+            "halfdaywalkin" : 25,
+            "fulldaywalkin" : 35,
             "image": "scooter.wepb"
         },
 
