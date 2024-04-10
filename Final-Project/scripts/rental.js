@@ -20,7 +20,7 @@ fetch(url)
 				<h2 class="heading">${repo.name}</h2>
 				<div>
 					<div>
-						<img class="side-image" src="images/${repo.image}">
+						<img class="side-image box" src="images/${repo.image}">
 					</div>
 					<div>
 						<div>
