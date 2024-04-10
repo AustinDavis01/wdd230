@@ -9,14 +9,14 @@ html, body{
 }
 
 #menu::before{
-    content: url("/images/hamburgermenu.jpg");
+    content: url("../images/hamburgermenu.jpg");
     position: absolute;
     right: 10px;
     top: 10px;
 }
 
 #menu.show::before{
-    content: url("/images/exit.png");
+    content: url("../images/exit.png");
 }
 
 .navigation {
