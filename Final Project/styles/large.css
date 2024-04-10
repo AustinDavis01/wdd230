@@ -1,0 +1,42 @@
+@media (min-width: 950px)
+{
+
+    .main1 {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        grid-template-rows: 1fr;
+    }
+
+    #nav {
+        display: flex;
+        
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+        width: 100vw;
+        border-top: 2px solid black;
+        margin-right: 15px;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .side-pics {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .grid1 {
+        grid-column: 0/1;
+        grid-row: 0/1;
+    }
+
+
+
+
+
+
+}
