@@ -34,13 +34,31 @@
     </header>
     <main class="main4">
         <h2>Locations</h2>
-        <div class="side">
-            <div>
+        <div class="maps">
+            <div class="border">
                 <h2>Puerta Maya</h2>
+                <div class="map-border">
+                    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119550.90776498147!2d-87.10612955425802!3d20.548577406185156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e57491a71c81d%3A0x6933058e58e0ee3d!2sPuerta%20Maya%20Cruise%20Ship%20Maritime%20Terminal!5e0!3m2!1sen!2sus!4v1712774467119!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>                
             </div>
-            <div>
+            <div class="border">
                 <h2>Playa Del Carmen</h2>
+                <div class="map-border">
+                    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d135819.40437263338!2d-87.16899446402294!3d20.64742570717474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e4323d22d4e61%3A0xe8c10b783bab4adc!2sPlaya%20del%20Carmen%2C%20Quintana%20Roo%2C%20Mexico!5e0!3m2!1sen!2sus!4v1712774389424!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
+        </div>
+        <div>
+            <form method="get" action="thankyou.html">
+                <fieldset class="marg">
+                    <label>First Name <input name="fname" type="text" id="fname" required></label>
+                    <label>Last Name <input name="lname" type="text" id="lname" required></label>
+                    <label>Email <input class="right email" name="Email" type="email"  required placeholder="someone@gmail.com"></label>
+                    <label>Comments Descriptions<textarea name="textarea" id="textarea"></textarea></label>
+                </fieldset>
+                <label><input class="submit" type="submit" name="submit" value="Rent"></label>
+
+            </form>
         </div>
         <div>
             <h2>Info</h2>

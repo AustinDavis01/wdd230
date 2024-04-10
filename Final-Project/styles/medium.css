@@ -46,5 +46,14 @@
         justify-content: center;
     }
 
+    .marg {
+        margin: 10px;
+    }
+
+    .maps {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
 
 }

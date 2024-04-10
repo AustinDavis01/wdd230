@@ -157,3 +157,25 @@ label {
 .juntos {
     text-align: center;
 }
+
+.map {
+    width: 99%;
+    display: block;
+    margin: 0px auto;
+}
+
+.border {
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 10px;
+    background-color:aliceblue;
+    padding: 10px;
+    align-items: center;
+}
+
+.map-border{
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+
