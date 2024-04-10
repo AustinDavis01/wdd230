@@ -27,6 +27,7 @@ fetch(url)
 							<h3>Max Persons</h3>
 							<p>${repo.maxpersons}</p>
 						</div>
+						<h3 class="stlye">Reservations:</h3>
 						<div>
 							<h3>Half Day (3hrs)</h3>
 							<p>$${repo.halfdayreservation}</p>
@@ -36,7 +37,7 @@ fetch(url)
 							<p>$${repo.fulldayreservation}</p>
 						</div>
 
-						<h3 class="stlye">Walk ins</h3>
+						<h3 class="stlye">Walk ins:</h3>
 
 						<div>
 							<h3>Half Day (3hrs)</h3>
