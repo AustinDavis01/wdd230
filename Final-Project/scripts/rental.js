@@ -28,7 +28,7 @@ fetch(url)
 							<p>${repo.fulldayreservation}</p>
 						</div>
 
-						<h3>Walk ins</h3>
+						<h3 class="stlye">Walk ins</h3>
 
 						<div>
 							<h3>Half Day (3hrs)</h3>

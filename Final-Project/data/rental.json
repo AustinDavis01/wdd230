@@ -17,7 +17,7 @@
             "fulldayreservation" : 40,
             "halfdaywalkin" : 35,
             "fulldaywalkin" : 45,
-            "image": "scooter.wepb"
+            "image": "scooter.webp"
         },
 
         {
@@ -27,7 +27,7 @@
             "fulldayreservation" : 50,
             "halfdaywalkin" : 45,
             "fulldaywalkin" : 55,
-            "image": "scooter.wepb"
+            "image": "scooter.webp"
             
         },
 
@@ -38,7 +38,7 @@
             "fulldayreservation" : 30,
             "halfdaywalkin" : 25,
             "fulldaywalkin" : 35,
-            "image": "scooter.wepb"
+            "image": "scooter.webp"
         },
 
         {
